@@ -1,9 +1,10 @@
 .body {
   width: 100%;
+  background-color: wheat;
 }
 
 .head {
-  background-color: orange;
+  background-color: blue;
   color: white;
   font-size: 35px;
   width: 80%;
@@ -14,8 +15,8 @@
 }
 
 .instructions {
-  background-color: wheat;
-  color: green;
+  background-color: royalblue;
+  color: white;
   width: 80%;
   padding: 10px;
   margin-left: 20px;
@@ -33,16 +34,18 @@
 }
 
 #targetNumber {
-  background-color: aquamarine;
+  background-color: goldenrod;
+  text-align: center;
   flex: 1.5;
   font-size: 25px;
-  color: brown;
+  color:white;
   height: 75px;
   margin: 10px;
 }
 
 #scoreSheet {
-  background-color: aqua;
+  background-color:goldenrod;
+  color: white;
   flex: .75;
   margin: 10px;
   height: 75px;
@@ -75,7 +78,7 @@ img {
 }
 
 #totalScore {
-  background-color: teal;
+  background-color:purple;
   height: 20px;
   width: 80%;
   margin: 20px;
@@ -86,7 +89,7 @@ img {
 }
 
 #curScore {
-  background-color: teal;
+  background-color:purple;
   width: 80%;
   height: 70px;
   margin-left: 20px;
